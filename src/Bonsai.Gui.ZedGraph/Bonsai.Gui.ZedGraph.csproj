@@ -1,12 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Title>Bonsai - GUI ZedGraph</Title>
     <Description>Bonsai Library for composing real-time data visualizers using ZedGraph.</Description>
-    <PackageTags>Bonsai Rx GUI Graphical User Interface ZedGraph Visualizers</PackageTags>
+    <PackageTags>$(PackageTags) ZedGraph Visualizers</PackageTags>
     <TargetFrameworks>net472</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
-    <VersionPrefix>0.1.0</VersionPrefix>
   </PropertyGroup>
 
   <ItemGroup>

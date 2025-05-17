@@ -1,12 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Title>Bonsai - GUI</Title>
     <Description>Bonsai Library for composing reactive user interfaces.</Description>
-    <PackageTags>Bonsai Rx GUI Graphical User Interface</PackageTags>
     <TargetFrameworks>net472</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
-    <VersionPrefix>0.1.0</VersionPrefix>
   </PropertyGroup>
 
   <ItemGroup>
